@@ -16,9 +16,9 @@ export default function HomePage() {
       <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1490750967868-88aa4f44f45a?w=1920&h=1200&fit=crop&q=80"
-            alt="Beautiful bouquet of roses"
-            className="w-full h-full object-cover scale-105"
+            src="https://images.unsplash.com/photo-1533616688419-b7a585564566?w=1920&h=1200&fit=crop&q=80"
+            alt="Lush pink and red roses bouquet"
+            className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-pink-900/20 to-black/50" />
         </div>
