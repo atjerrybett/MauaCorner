@@ -15,12 +15,17 @@ export default function HomePage() {
       {/* ===== HERO SECTION ===== */}
       <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img
-            src="https://images.unsplash.com/photo-1533616688419-b7a585564566?w=1920&h=1200&fit=crop&q=80"
-            alt="Lush pink and red roses bouquet"
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
             className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-pink-900/20 to-black/50" />
+            poster="https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=1920&h=1200&fit=crop&q=80"
+          >
+            <source src="/videos/hero.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-pink-900/20 to-black/50" />
         </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-up">
           <p className="text-gold-light font-medium tracking-[0.3em] uppercase text-sm mb-4">✨ Grand Opening — 1st May 2026 ✨</p>
